@@ -1,0 +1,267 @@
+@font-face {
+  font-family: 'Decaydence Straight.otf'; 
+  src: url('Decaydence\ Straight.otf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'PROPAGAN.ttf'; 
+  src: url('PROPAGAN.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+h2 {
+  font-family: 'Decaydence Straight.otf', sans-serif;
+  color: white;
+}
+ 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+p{
+  font-family: 'Rows of Sunflowers.ttf'; 
+  color: black;
+}
+
+body {
+  font-family: 'Decaydence Straight.otf', sans-serif;
+  line-height: 1.6;
+  background-color: #f4f4f4;
+  color: #333;
+  background-image: url(/fotos/dandan.jpeg);
+  background-size: cover; 
+  background-position: center; 
+  background-repeat: no-repeat;
+  font-family: 'AcademyFilled', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #074c61;
+  color: #074c61;
+  padding: 55px;
+}
+
+.logo img {
+  max-width: 195px;
+}
+
+
+.menu {
+  list-style-type: none;
+  padding: 0;
+}
+
+.menu li {
+  display: inline;
+  margin: 0 60px;
+}
+
+.menu a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.menu a:hover {
+  color: #515c55;
+}
+
+
+
+header h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+header p {
+  font-size: 1.2rem;
+}
+
+
+main {
+  max-width: 1000px;
+  margin: 20px auto;
+  padding: 0 20px;
+}
+
+
+.post {
+  display: flex;
+  align-items: center;
+  margin-bottom: 40px;
+  background-color: #4492aa;
+  border: 3px solid #ddd; 
+  border-radius: 100px; 
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); 
+}
+
+.post.reverse {
+  flex-direction: row-reverse;
+}
+
+.image img {
+  width: 100%;
+  height: auto;
+  border: 1px solid #ddd;
+  border-radius: 100px; 
+}
+
+.image {
+  width: 50%;
+}
+
+.content {
+  padding: 20px;
+  width: 50%;
+}
+
+.content h2 {
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+}
+
+.content p {
+  font-size: 1.1rem;
+  line-height: 1.8;
+}
+.contato{
+margin-right: 1500px;
+
+}
+
+footer {
+  background-color: #444;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+  margin-top: 20px;
+}
+
+footer p {
+  margin: 0;
+}
+nav {
+  margin-top: 10px;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+nav ul li {
+  margin: 0 15px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+.post .image img {
+  width: 300px;
+  height: auto;
+  margin-right: 2000px;
+}
+
+.post.reverse .image img {
+  margin-right: 0;
+  margin-left: 1px;
+}
+
+footer {
+  background-color: #074c61;
+  text-align: center;
+  padding: 10px;
+  margin-top: 40px;
+}
+
+#contato {
+  background-color: #eee;
+  padding: 40px;
+  margin-top: 50px;
+  border-radius: 10px;
+  text-align: center;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#contato h2 {
+  color: #333;
+  margin-bottom: 20px;
+}
+
+#contactForm label {
+  display: block;
+  margin-bottom: 10px;
+  color: #333;
+  text-align: left;
+}
+
+#contactForm input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+#contactForm button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 15px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#contactForm button:hover {
+  background-color: #45a049;
+}
+
+#successMessage {
+  margin-top: 20px;
+  color: green;
+  display: none;
+}
+
+#faleConosco {
+  background-color: #f4f4f4;
+  padding: 40px;
+  margin-top: 30px;
+  text-align: center;
+  border-radius: 10px;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#faleConosco h2 {
+  color: #333;
+  margin-bottom: 20px;
+}
+
+#faleConosco p {
+  margin-bottom: 20px;
+}
+
+#faleConosco a {
+  text-decoration: none;
+  color: #4CAF50;
+  font-weight: bold;
+}
